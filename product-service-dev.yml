@@ -1,1 +1,10 @@
-dkfjk
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: murad@Kasif1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
