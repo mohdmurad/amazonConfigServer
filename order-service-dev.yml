@@ -30,14 +30,14 @@ spring:
 #   hystrix:
 #     enabled: true
 
-# management:
-#   tracing:
-#     sampling:
-#       probability: 1.0
-#   endpoints:
-#     web:
-#       exposure:
-#         include: "*"
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 logging:
   pattern:
